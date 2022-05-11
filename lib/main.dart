@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'view/login_view.dart';
 import 'view/splash_view.dart';
 
 main() => runApp(const MyApp());
@@ -9,7 +10,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SplashView(),
+      home: LoginView(),
     );
   }
 }
