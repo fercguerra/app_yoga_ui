@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import 'componentes/custom_textfield.dart';
 //material para Android
 
@@ -7,6 +6,7 @@ class LoginView extends StatefulWidget {
   @override
   State<LoginView> createState() => _LoginViewState();
 }
+
 
 class _LoginViewState extends State<LoginView> {
   @override
